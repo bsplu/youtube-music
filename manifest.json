@@ -37,11 +37,11 @@
     //     "48": "icons/c4r_48.png",
     //     "96": "icons/c4r_96.png"
     // },
-    // "options_ui": {
-    //     "page": "settings/optionsV6.html",
-    //     // "page": "lib/test.html",
-    //     "open_in_tab": true
-    // },
+    "options_ui": {
+        "page": "settings/optionsV6.html",
+        // "page": "lib/test.html",
+        "open_in_tab": true
+    },
     "permissions": [
         // "activeTab",
         "notifications",

@@ -20,13 +20,15 @@
         <input type="file" name="fileField" id="fileField" onchange="handleFile()">
     </div> -->
     <div class="firefoxFrame">
-
-        <audio controls>
-            <source src="https://www.youtube.com/audiolibrary_download?vid=fef9a2eabe90dba7" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-
-    </div> 
+        <p id="version-warning"></p>
+        <div class="row bottom">
+            <span class="spButton">
+                <input type="button" id="update" class="btGroup" value="update"><!--
+                --<input type="button" id="reload" class="btGroup" value="reload"><!--
+                --><input type="button" id="settings" class="btGroup" value="settings">
+            </span>
+        </div>
+    </div>
 </body>
 
 </html>
